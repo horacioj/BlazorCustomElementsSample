@@ -1,0 +1,13 @@
+﻿@page "/some/routed/page"
+@model BlazorSolo.Pages.RoutedPageModel
+@{
+    ViewData["Title"] = "Routed Page";
+}
+<h1>@ViewData["Title"]</h1>
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+
+    <my-counter title="routed page" increment-amount="2" />
+
+</div>
